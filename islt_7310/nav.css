@@ -5,7 +5,7 @@ ul {
     border: #78AB3B 5px solid;
     margin-left:0;
 }
-li {
+.li {
     color: #d7dada;
     display: inline-block;
     text-align: center;
