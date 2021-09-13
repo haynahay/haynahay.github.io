@@ -1,11 +1,4 @@
-.ul {
-    list-style-type:none;
-    color: #78AB3B;
-    width:300px;
-    border: #78AB3B 5px solid;
-    margin-left:0;
-}
-.li {
+a {
     color: #d7dada;
     display: inline-block;
     text-align: center;
