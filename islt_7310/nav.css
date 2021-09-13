@@ -1,5 +1,5 @@
-navlinks li {
-     color: #d7dada;
+ul li {
+    color: #d7dada;
     display: inline-block;
     list-style-type: none;      
     text-align: center;
