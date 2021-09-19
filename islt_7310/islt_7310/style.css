@@ -1,0 +1,11 @@
+.heading {color: #78ab3b;}
+.paragraph::first-letter {font-size: 150%;}
+.subparagraph {text-indent: 2em;}
+body {
+    border: none;
+    margin: 2px;
+}
+main {
+    border: none;
+    margin: 20px;
+}
