@@ -5,8 +5,8 @@
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    display:inline-block;
+    padding-left: 2em;
+    display:inline-flex;
 
 }
 nav>ul li {
@@ -35,7 +35,10 @@ nav ul ul li {
 }
 
 nav>ul>li:hover>ul{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
 }
 
 footer{
