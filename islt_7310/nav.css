@@ -73,6 +73,10 @@ nav ul ul li {
       width: 100%;
       padding: 15px;
     }
+
+    nav ul {
+        display: block;
+    }
   
     /* (B) SHOW HAMBURGER ICON */
     #hamnav label {
