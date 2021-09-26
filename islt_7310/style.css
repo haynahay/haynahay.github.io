@@ -16,7 +16,8 @@ main {
     main {
         display: grid;
         grid-template: 20px / 400px;
-        grid-gap: 10px 15px;}
+        grid-gap: 10px 15px;
+        font-size: 40px;}
 }
 
 
