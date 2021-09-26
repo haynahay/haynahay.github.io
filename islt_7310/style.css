@@ -21,7 +21,8 @@ main {
     main {
         display: grid;
         grid-template: auto / auto;
-        grid-gap: 5px 10px;}
+        grid-gap: 5px 10px;
+        font-size: 3.5vw; }
 }
 
 
