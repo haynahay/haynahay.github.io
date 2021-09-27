@@ -1,3 +1,10 @@
+@font-face { 
+
+    font-family: fontName; /*this is where we give our font a name so we can use it!*/
+    
+    src: url("font.ttf"); /*remember this is how we link to files in CSS!*/
+    
+    }
 .paragraph::first-letter {font-size: 150%;}
 .subparagraph {text-indent: 2em;
                 margin: 0;
@@ -30,4 +37,29 @@ main {
         display: grid; 
         grid-template: auto / auto;
         grid-gap: 15px 20px;}
+}
+
+/*print style sheet*/
+
+@media print {
+    *{
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    #hamnav{
+        display:none;
+    }
+    iframe{
+        display:none;
+    }
+    .heading{
+        margin-bottom:0;
+        border:none;
+        text-align:center;
+    }
+    @page{
+        margin:1cm;
+    }
 }
