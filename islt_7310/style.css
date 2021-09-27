@@ -1,9 +1,11 @@
 @font-face { 
+    font-family: Helvetica; /*this is where we give our font a name so we can use it!*/
+    
+    src: url("Helvetica Neue Medium Extended.otf"); /*remember this is how we link to files in CSS!*/
 
-    font-family: fontName; /*this is where we give our font a name so we can use it!*/
-    
-    src: url("font.ttf"); /*remember this is how we link to files in CSS!*/
-    
+    font-family: Garamond;
+
+    src: url("EBGaramond12-Regular.otf");
     }
 .paragraph::first-letter {font-size: 150%;}
 .subparagraph {text-indent: 2em;
@@ -14,8 +16,11 @@ h3 {margin: 0;
 body {
     border: none;
     margin: 2px;
+    font-family: Garamond;
 }
-.heading {color: #78ab3b;}
+.heading {color: #78ab3b;
+    font-family: Helvetica;
+}
 main {
     display: grid;
     grid-template: 20px / 700px;
