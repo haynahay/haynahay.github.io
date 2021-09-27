@@ -77,13 +77,13 @@ nav ul ul li {
     nav ul {
         display: block;
     }
-  
+
     /* (B) SHOW HAMBURGER ICON */
     #hamnav label {
       display: inline-block;
       color: #D7DADA;
       background: #78AB3B;
-      font-style: bold;
+      font-weight: bold;
       font-size: 1.8em;
       padding: 10px;
     }

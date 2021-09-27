@@ -1,4 +1,3 @@
-.heading {color: #78ab3b;}
 .paragraph::first-letter {font-size: 150%;}
 .subparagraph {text-indent: 2em;
                 margin: 0;
@@ -9,7 +8,7 @@ body {
     border: none;
     margin: 2px;
 }
-
+.heading {color: #78ab3b;}
 main {
     display: grid;
     grid-template: 20px / 700px;
