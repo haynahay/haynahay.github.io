@@ -15,13 +15,14 @@ body {
     border: none;
     margin: 2px;
     font-family: Garamond;
+    font-size:1.5vw;
 }
 #lesson{
     width:40%;
     height:40%;
     padding-left:20%;
 }
-.heading {color: #78ab3b;
+.heading {color: #71ad27;
     font-family: Helvetica;
 }
 .about-heading{
@@ -48,6 +49,25 @@ body {
 .grid-container-3 {
     width: 100%;
     height: 400%;
+}
+table{
+    width:50%;
+}
+table>caption{
+    font-size:150%;
+}
+table>thead>tr>th{
+    font-size:125%;
+}
+table, tr, th, td {
+    border:2px solid #4e6d29;
+    border-collapse:collapse;
+}
+tr:nth-child(odd) {
+    background-color: #4e6d29;
+}
+tr>th{
+    background-color: #222659;
 }
 footer{
     position: relative;
@@ -88,6 +108,9 @@ transform: scale(1.5);
     padding-left:35%;
 }
 @media screen and (max-width:600px){
+    body{
+        font-size:3.5vw;
+    }
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -112,10 +135,16 @@ transform: scale(1.5);
         height:30%;
         padding-left:35%;
     }
+    table{
+        width:90%;
+    }
 }
 
 
 @media screen and (max-width:800px){
+    body{
+        font-size:3.5vw;
+    }
     .grid-container{
         display: grid; 
         grid-template-columns: 1fr;
@@ -125,6 +154,9 @@ transform: scale(1.5);
         height: 200px;
         padding-left: 100px;
         padding-right: 100px;
+    }
+    table{
+        width:80%;
     }
 }
 

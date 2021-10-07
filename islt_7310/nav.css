@@ -29,7 +29,7 @@ nav>ul li {
 nav a {
     text-decoration: none;
     display: inline-block;
-    background-color: #78AB3B;
+    background-color:#4e6d29;
     padding: 15px 15px 15px 15px;
     width: 200px; 
     margin: 2px;
@@ -82,7 +82,7 @@ nav ul ul li {
     #hamnav label {
       display: inline-block;
       color: #D7DADA;
-      background: #78AB3B;
+      background: #4e6d29;
       font-weight: bold;
       font-size: 1.8em;
       padding: 10px;
