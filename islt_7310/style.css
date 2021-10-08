@@ -37,6 +37,11 @@ body {
     grid-auto-rows: minmax(10px, 200px);
     font-size: 20px;
 }
+#resume{
+    padding-left:50%;
+    padding-right:50%;
+    color:#d7dada;
+}
 .grid-container-1 {
     width: 200px;
     height: 200px;
