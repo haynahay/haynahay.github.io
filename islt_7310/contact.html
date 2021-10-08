@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- Title: Experience Page
+Use: Displays Hayden's work experience
+Author: Hayden Mueller
+Developed: 10/3/2021
+Tested: 10/3/2021; Validated using https://validator.w3.org/nu/#textarea 
+CSS validated using https://jigsaw.w3.org/css-validator/.
+ -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css"> 
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+</head>
+<body>
+    <header>    
+        <h1 class="heading">Contact</h1> 
+    </header>
+        <!-- (A) MENU WRAPPER -->
+        <nav id="hamnav">
+            <!-- (B) THE HAMBURGER -->
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>      
+            <!-- (C) MENU ITEMS -->
+            <div class="dropdown" id="hamitems">
+                <ul> 
+                    <li><a href=index.html>Home</a></li>
+                    <li><a href=about.html>About</a></li>
+                    <li><a href=project.html>Experience</a>
+                        <ul>
+                            <li><a href="project.html#Tokyo-Academics">Tokyo Academics</a></li>
+                            <li><a href="project.html#Spark">Spark Student Research</a></li>
+                            <li><a href="project.html#Women-Without-Borders">Women without Borders</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=reflection.html>Reflection</a></li>
+                    <li><a href=#contact.html>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <form action="mailto:hmm2nn@umsystem.edu?Subject=Professional%20Website%20Contact" method="post" enctype="text/plain">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" autofocus required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Submit">   
+        </form>
+</body>
+<footer>
+    <p>Copyright Hayden Mueller 2021. hmm2nn@umsystem.edu</p>
+</footer>
+</html>
