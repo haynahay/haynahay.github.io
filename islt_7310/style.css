@@ -90,11 +90,11 @@ footer{
 #phone:hover {
 transform: scale(1.5);
 }
-#email {
+#mail {
     transition: transform .2s; /*animation */
     margin: 0 auto;
 }
-#email:hover {
+#mail:hover {
 transform: scale(1.5);
 }
 #Tokyo-Academics {
