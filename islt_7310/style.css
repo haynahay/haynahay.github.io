@@ -158,6 +158,9 @@ transform: scale(1.5);
     #message{
         width:60%;
     }
+    #script_credit{
+        display:none;
+    }
 }
 
 
@@ -186,6 +189,9 @@ transform: scale(1.5);
     }
     #message{
         width:50%;
+    }
+    #script_credit{
+        display:none;
     }
 }
 

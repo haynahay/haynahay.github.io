@@ -3,8 +3,8 @@
 <!-- Title: Home Page
 Use: Introduces users to site
 Author: Hayden Mueller
-Developed: 10/10/2021
-Tested: 10/10/2021; Validated using https://validator.w3.org/nu/#textarea 
+Developed: 10/14/2021
+Tested: 10/14/2021; Validated using https://validator.w3.org/nu/#textarea 
 CSS validated using https://jigsaw.w3.org/css-validator/.
 -->
 <head>
@@ -41,6 +41,25 @@ CSS validated using https://jigsaw.w3.org/css-validator/.
                 </ul>
             </div>
         </nav>
+        <script>
+            <!--
+            
+            //Bread crumb script - Kevin Lynn Brown
+            //Duplicate directory names bug fix by JavaScriptKit.com
+            //Visit JavaScript Kit (http://javascriptkit.com) for script
+            
+            var path = "";
+            var href = document.location.href;
+            var s = href.split("/");
+            for (var i=2;i<(s.length-1);i++) {
+            path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+            }
+            i=s.length-1;
+            path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+            var url = window.location.protocol + "//" + path;
+            document.writeln(url);
+            //-->
+            </script>
         <br>
         <br>
         <br>
@@ -50,9 +69,11 @@ CSS validated using https://jigsaw.w3.org/css-validator/.
         <p>With this website, I aim to share my educational and professional background, and to encourage you to connect with me if our interests align. I hope you will click around on it to get a better sense of me as an educator, researcher, and learner. </p> 
         <p><img id="lesson" src="images/lesson.png" alt="picture of Hayden teaching a lesson"></p>
         <p>The About Page is a good place to get started if you are interested in what I have learned and where I have been. You can also find a short video of me there if you would like to put a face to my name. For projects and professional experience, please click the Experience Page link located above. The Teaching Philosophy Page shares more on my pedagogy and practice. If you would like to get in touch, please find my details on the Contact Page. With my work spanning several continents, I want to create a designated space for colleagues and future contacts around the world to reach out. Thank you!</p>
+        <p id="script_credit">This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
     </main>
     <footer>
         <p>Copyright Hayden Mueller 2021. <img id="phone" src="images/phone.ico" alt="phone" width="20" height="20">1+888-888-8888<img id="mail" src="images/email.ico" alt="email" width="20" height="20">hmm2nn@umsystem.edu</p>
+        <script src="https://www.freevisitorcounters.com/en/home/counter/876883/t/0"></script>
     </footer>
 </body>
 </html>

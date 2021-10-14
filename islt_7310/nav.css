@@ -89,6 +89,11 @@ nav ul ul li {
     }
   
     /* (C) TOGGLE SHOW/HIDE MENU */
-    #hamitems { display: none; }
     #hamnav input:checked ~ #hamitems { display: block; }
+    #hamitems { display: none; }
+    #hamitems ul li:hover>ul{
+      display: none;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;}
   }
